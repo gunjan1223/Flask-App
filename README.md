@@ -5,7 +5,6 @@ This is a simple Flask web application that demonstrates how to build a web app 
 # Features
 
 - A simple homepage that displays a welcome message.
-- A user registration form that allows users to sign up.
 - Data is stored in an SQLite database.
 - Basic styling with custom CSS.
 
@@ -55,21 +54,21 @@ flask_app/
    http://127.0.0.1:5000
 
 ### Database Setup
-The app uses SQLite as the database.
+- The app uses SQLite as the database.
 
-On the first run, the app will create a example.db SQLite database file automatically.
+- On the first run, the app will create a example.db SQLite database file automatically.
 
-If you want to reset the database, simply delete the example.db file and restart the app.
+- If you want to reset the database, simply delete the example.db file and restart the app.
 
 ### Endpoints
 
 Home: GET /
 
-  Displays the homepage and the user registration form.
+- Displays the homepage and the user registration form.
   
 Register User: POST /register
 
-  Handles form submission for user registration. User data is stored in the SQLite database.
+- Handles form submission for user registration. User data is stored in the SQLite database.
   
 ### Dependencies
 
