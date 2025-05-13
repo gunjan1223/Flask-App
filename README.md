@@ -19,12 +19,19 @@ This is a simple Flask web application that demonstrates how to build a web app 
 flask_app/
 
 ├── app.py              # Main application file 
+
 ├── example.db          # SQLite database file 
+
 ├── requirements.txt    # Python dependencies 
+
 ├── templates/ 
+
     └── home.html       # Main homepage HTML file 
+
     └── static/ 
+
 ├── css/ 
+
     └── styles.css      # CSS file for styling
 
 
